@@ -1,10 +1,14 @@
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import TopBar from "./TopBar";
+import StoreListing from "./StoreListing";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <TopBar />
+      <StoreListing />
+    </>
   );
 }
 
